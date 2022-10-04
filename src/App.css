@@ -46,10 +46,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  
 }
 .landingpage h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 3.5rem;
+}
+.Howitworks {
+  color: #FFDB58;
+  font-size: 2rem;
 }
