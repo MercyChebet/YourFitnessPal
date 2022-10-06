@@ -1,4 +1,4 @@
-import { NavLink, Router, BrowserRouter } from "react-router-dom";
+import { NavLink, BrowserRouter, BrowserRouter } from "react-router-dom";
 
 function NavBar() {
     return (
