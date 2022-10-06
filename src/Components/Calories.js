@@ -1,8 +1,36 @@
 import { useState } from "react";
 
 function CaloriesCalculator() {
-    const []
+    const [gender, setgender]=useState(0);
+    const [age,setage]=useState(0);
+    const [height, setheight]=useState(0);
+    const [weight, setweight]= useState(0);
+    const [activity, setactivity]=useState(0);
 
+    let calculateBMR = (event) => {
+        event.preventDefault();
+    }
+    // if (age <= 80 && age >= 15 && height > 0 && weight > 0) {
+    //     // Male:
+    //     if (gender[0].checked) {
+    //       bmr = 10 * weight + 6.25 * height - 5 * age + 5;
+    //     }
+    //     //Female:
+    //     else if (gender[1].checked) {
+    //       bmr = 10 * weight + 6.25 * height - 5 * age - 161;
+    //     }
+    //     // Gender unchecked:
+    //     else {
+    //       alert("Please enter a valid input!");
+    //       return;
+    //     }
+    //     if (activity == 0) need = bmr;
+    //     else if (activity == 1) need = bmr * 1.2;
+    //     else if (activity == 2) need = bmr * 1.465;
+    //     else if (activity == 3) need = bmr * 1.375;
+    //     else if (activity == 4) need = bmr * 1.55;
+    //     else if (activity == 5) need = bmr * 1.725;
+    //     else need = bmr * 1.9;
 
     return (
         <div className="container">
@@ -55,4 +83,5 @@ function CaloriesCalculator() {
     )
 
 }
+
 export default CaloriesCalculator;
