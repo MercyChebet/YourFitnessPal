@@ -18,7 +18,8 @@ function BmiCalculator () {
                         <label>Height (cm)</label>
                         <input value={height}>
                     </div>
-                    <button className="btn" type="submit"></button>
+                    <button className="btn" type="submit">Submit</button>
+                    <button className="reload" type="submit">Reload</button>
                 </form>
 
 
