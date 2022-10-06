@@ -8,11 +8,11 @@ function BmiCalculator () {
     let calculatebmi= (event) => {
         event.preventDefault();
         if(weight === 0 || height === 0){
-            alert ("invalid input");
+            alert ("Please enter a valid weight and height");
         }
             else {
-                let bmi=(weight / (height/100) ** 2)
-                setbmi=(bmi.toFixed(2))
+                let bmi= (weight / (height*height) * 10000)
+                setbmi= (bmi.toFixed(1))
 
                 if (bmi<18.5){
                     setmessage("You are underweight")
@@ -25,13 +25,18 @@ function BmiCalculator () {
                 }
             }
             }
+    let reload = () => {
+        window.location.reload();
+    }
 
 
     return (
         <div className="bmi">
             <div className="container">
+                <h1 className="center">BODY MASS INDEX (BMI)</h1>
                 <h2 className="center">BMI Calculator</h2>
-                <p>Calculate your BMI to determine your goal</p>
+                <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies </p>
+                <p>to adult men and women. Calculate your BMI to determine your goal.</p>
                 <form onSubmit={calculatebmi}>
                     <div>
                         <label>Weight (kg)</label>
@@ -42,7 +47,7 @@ function BmiCalculator () {
                         <input value={height} onChange={(e) => setheight(e.target.value)} />
                     </div>
                     <button className="btn" type="submit">Submit</button>
-                    <button className="reload" type="submit">Reload</button>
+                    <button className=" btn reload" type="submit" onClick={reload}>Reload</button>
                 </form>
                 <div className="center">
                     <h3> Your BMI is:{bmi}</h3>
