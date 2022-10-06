@@ -2,7 +2,7 @@ import { NavLink, Router, BrowserRouter } from "react-router-dom";
 
 function NavBar() {
     return (
-        <BrowserRouter>
+       
 
             <div className="NavBar">
                 <div className="Appname">
@@ -15,7 +15,7 @@ function NavBar() {
                     <NavLink className={"links"} exact to="/exercises">Exercise Guide</NavLink>
                 </div>
             </div>
-        </BrowserRouter>
+        
     )
 }
 export default NavBar;
