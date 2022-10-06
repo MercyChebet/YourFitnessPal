@@ -5,6 +5,9 @@ function BmiCalculator () {
     const [height,setheight]=useState(0); 
     const [bmi,setbmi]=useState("");
     const [message,setmessage]=useState("");
+    let calulatebmi= {event} => {
+        event.preventDefault();
+    }
     return (
         <div className="bmi">
             <div className="container">
@@ -12,11 +15,11 @@ function BmiCalculator () {
                 <form onSubmit={calulatebmi}>
                     <div>
                         <label>Weight (kg)</label>
-                        <input value={weight} onChange= {(e)=>setweight(e.target.value)}>
+                        <input value={weight} onChange= {(e)=>setweight(e.target.value)}/>
                     </div>
                     <div>
                         <label>Height (cm)</label>
-                        <input value={height} onChange=  {(e)=>setheight(e.target.value)}>
+                        <input value={height} onChange=  {(e)=>setheight(e.target.value)}/>
                     </div>
                     <button className="btn" type="submit">Submit</button>
                     <button className="reload" type="submit">Reload</button>
