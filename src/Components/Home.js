@@ -1,3 +1,4 @@
+import NavBar from "./NavBar";
 function HowItWorks () {
     return (
         <div className="Howitworks">
@@ -8,10 +9,13 @@ function HowItWorks () {
 function Home () {
     return (
         <div className="landingpage">
+            <NavBar />
+            <div>
             <h1>
                 Become Fitter, Stronger, & More Confident
             </h1>
          <HowItWorks />
+        </div>
         </div>
     )
 }

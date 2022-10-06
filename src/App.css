@@ -38,6 +38,11 @@
   }
 }
 .NavBar {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 
 }
 .landingpage {
@@ -46,9 +51,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  justify-content: center;
-  
 }
 .landingpage h1 {
   color: white;
@@ -57,4 +61,23 @@
 .Howitworks {
   color: #FFDB58;
   font-size: 2rem;
+}
+.links {
+  color: #f5c107;
+
+}
+.Appname {
+  color: white;
+  font-size: 3.5rem;
+
+}
+.navlinks {
+  display: contents;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+}
+.links {
+  text-decoration: none;
 }
