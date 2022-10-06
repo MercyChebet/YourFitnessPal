@@ -128,3 +128,8 @@ p {
   margin: 10px 0;
   padding-bottom: 10px;
 }
+.gender {
+  vertical-align: middle;
+  height: 20px;
+  width: 30px;
+}

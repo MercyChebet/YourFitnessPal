@@ -12,7 +12,7 @@ function BmiCalculator () {
         }
             else {
                 let bmi= (weight / (height*height) * 10000)
-                setbmi= (bmi.toFixed(1))
+                setbmi= (bmi.toFixed(1)) 
 
                 if (bmi<18.5){
                     setmessage("You are underweight")
