@@ -1,5 +1,6 @@
 
 import './App.css';
+import BmiCalculator from './Components/Bmi';
 import Home from './Components/Home'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
   
       <Home />
+      <BmiCalculator />
     </div>
   );
 }
