@@ -133,3 +133,11 @@ p {
   height: 20px;
   width: 30px;
 }
+
+.row{
+  background-color: white;
+  height: 40rem;
+  padding-top: 2rem;
+  text-align: center;
+
+}
