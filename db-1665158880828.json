@@ -1,0 +1,106 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Bench Press",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Chest"
+    },
+    {
+      "id": 2,
+      "name": "Squat",
+      "description": "Stand up and squat down",
+      "muscle_group": "Legs"
+    },
+    {
+      "id": 3,
+      "name": "Deadlift",
+      "description": "Pick up the bar and stand up",
+      "muscle_group": "Back"
+    },
+    {
+      "id": 4,
+      "name": "Overhead Press",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Shoulders"
+    },
+    {
+      "id": 5,
+      "name": "Bent Over Row",
+      "description": "Bend over and pull the bar up",
+      "muscle_group": "Back"
+    },
+    {
+      "id": 6,
+      "name": "Barbell Curl",
+      "description": "Bend over and pull the bar up",
+      "muscle_group": "Biceps"
+    },
+    {
+      "id": 7,
+      "name": "Tricep Extension",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Triceps"
+    },
+    {
+      "id": 8,
+      "name": "Leg Press",
+      "description": "Sit down and push the bar up",
+      "muscle_group": "Legs"
+    },
+    {
+      "id": 9,
+      "name": "Calf Raise",
+      "description": "Stand up and push the bar up",
+      "muscle_group": "Calves"
+    },
+    {
+      "id": 10,
+      "name": "Shoulder Press",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Shoulders"
+    },
+    {
+      "id": 11,
+      "name": "Lateral Raise",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Shoulders"
+    },
+    {
+      "id": 12,
+      "name": "Crunch",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Abs"
+    },
+    {
+      "id": 13,
+      "name": "Leg Curl",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Legs"
+    },
+    {
+      "id": 14,
+      "name": "Leg Extension",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Legs"
+    },
+    {
+      "id": 15,
+      "name": "Hamstring Curl",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Legs"
+    },
+    {
+      "id": 16,
+      "name": "Pull Up",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Back"
+    },
+    {
+      "id": 17,
+      "name": "Dips",
+      "description": "Lay on your back and push the bar up",
+      "muscle_group": "Triceps"
+    }
+  ]
+}
