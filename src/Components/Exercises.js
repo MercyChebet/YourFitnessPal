@@ -17,7 +17,7 @@ function Exercises({ exercise }) {
 function ExerciseGuide() {
     const [exercises, setexercises] = useState([])
     useEffect(() => {
-        fetch("http://localhost:3000/exercises")
+        fetch("https://yourfitnessdata.herokuapp.com/fitnessdata")
     .then((res) => res.json())
                 .then((exercises) => {
                     console.log(exercises);
