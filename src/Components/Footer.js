@@ -10,7 +10,7 @@ function Footer() {
         <ul className="contact">
     <a href="#">
       <li>
-        <FaPhoneAlt size="1.5em" /> +254723232323
+        <FaPhoneAlt size="1.5em" /> +254 723232323
       </li><br></br>
     </a>
     <a href="#">

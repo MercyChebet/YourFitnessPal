@@ -94,13 +94,14 @@
   align-items: center;
   width: 100%;
   height: 100vh;
+  background-color: #dac374;
 
 }
 .container {
   box-sizing: 0px 0px 12px #ccc;
   border-radius: px;
   padding: 1rem;
-
+  background-color: #dac374;;
 }
 input {
   width: 100%;
@@ -152,4 +153,12 @@ p {
   height: 10rem;
   padding-top: 10px;
   list-style: none;
+}
+.category {
+  background-color: #f5c107;
+  color: black;
+  height: 30rem;
+  text-align: center;
+  padding: 50px;
+
 }

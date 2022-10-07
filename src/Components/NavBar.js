@@ -13,6 +13,7 @@ function NavBar() {
                     <NavLink className={"links"} exact to="/bmi">BMI Calculator</NavLink>
                     <NavLink className={"links"} exact to="/calories">Caloric Needs</NavLink>
                     <NavLink className={"links"} exact to="/exercises">Exercise Guide</NavLink>
+                    <NavLink className={"links" } exact to="/contacts">Contact Us</NavLink>
                 </div>
             </div>
         
