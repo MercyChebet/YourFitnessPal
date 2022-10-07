@@ -57,10 +57,13 @@
 .landingpage h1 {
   color: white;
   font-size: 3.5rem;
+  text-align: center;
 }
 .Howitworks {
-  color: #FFDB58;
+  color:white;
   font-size: 2rem;
+  text-align: center;
+
 }
 .links {
   color: #f5c107;
@@ -135,9 +138,18 @@ p {
 }
 
 .row{
-  background-color: white;
+  background-color: #f5c107;
+
   height: 40rem;
   padding-top: 2rem;
   text-align: center;
 
+}
+.contact {
+  background-color: rgb(54, 52, 52);
+  color:black;
+  text-align: center;
+  height: 10rem;
+  padding-top: 10px;
+  list-style: none;
 }

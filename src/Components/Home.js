@@ -1,4 +1,5 @@
 import NavBar from "./NavBar";
+import Footer from "./Footer"
 function HowItWorks() {
     return (
         <div className="Howitworks">
@@ -32,11 +33,6 @@ function MoreSections() {
         </div>
     )
 }
-function Footer() {
-    return (
-        
-    )
-}
 function Home() {
     return (
         <>
@@ -50,9 +46,12 @@ function Home() {
                 </div>
             </div>
             <br></br>
-
             <div>
                 <MoreSections />
+            </div>
+            <br></br>
+            <div>
+                <Footer />
             </div>
             
         </>
